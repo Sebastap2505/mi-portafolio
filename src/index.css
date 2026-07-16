@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap');
+
+/* Variables del diseño Hacker para Tailwind v4 */
+@theme {
+  --color-background: #131313;
+  --color-on-background: #e5e2e1;
+  --color-primary-fixed-dim: #a4d659;
+  --color-secondary-fixed-dim: #a9d19e;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-variant: #353534;
+  --color-surface-dim: #131313;
+  --color-outline-variant: #434939;
+  --color-outline: #8d9380;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #c3c9b4;
+  --font-body-md: "JetBrains Mono", monospace;
+  --font-headline-md: "JetBrains Mono", monospace;
+  --font-headline-lg: "JetBrains Mono", monospace;
+  --font-label-md: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: #050505;
+  margin: 0;
+}
+
+/* Efectos Visuales Brutalistas */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.1));
+  background-size: 100% 4px;
+  opacity: 0.3;
+}
+
+.crt-glow { text-shadow: 0 0 4px #a4d659, 0 0 10px #a4d659; }
+.crt-glow-cyan { text-shadow: 0 0 4px #a9d19e, 0 0 10px #a9d19e; }
+
+.hacker-panel {
+  background-color: #0a0a0a;
+  border: 0.5px solid #1a1a1a;
+}
+
+.grid-bg {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(164, 214, 89, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(164, 214, 89, 0.05) 1px, transparent 1px);
+}
