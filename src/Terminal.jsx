@@ -7,21 +7,28 @@ const titleStyle = "text-primary-fixed-dim font-bold";
 const staticTerminalData = [
   { segments: [{ text: "PERFIL DE SEBASTIÁN AYUSO", style: titleStyle }] },
   { segments: [{ text: "--------------------------------------------------", style: titleStyle }] },
+  { segments: [{ text: "\nRESUMEN:", style: defaultStyle }] },
+  { segments: [{ text: "Ingeniero en Sistemas Computacionales con experiencia en soporte presencial y remoto, mantenimiento de infraestructura tecnológica y gestión de incidencias. Enfoque en resolución rápida de requerimientos.", style: defaultStyle }] },
   { segments: [{ text: "\nEXPERIENCIA LABORAL:", style: defaultStyle }] },
   { segments: [
-    { text: "1. Auxiliar de soporte técnico - ", style: defaultStyle },
+    { text: "1. Auxiliar de Soporte Técnico - ", style: defaultStyle },
     { text: "Instituto Nacional de Migración", style: highlightStyle },
-    { text: " (10/2025-04/2026):\n- Mantenimiento preventivo y correctivo de equipos.\n- Instalación y configuración de Software.\n- Soporte a redes y telecomunicaciones.\n- Gestión de respaldos de información institucional.\n- Soporte técnico presencial y documentación de incidencias.", style: defaultStyle }
+    { text: " (10/2025-04/2026):\n- Mantenimiento preventivo y correctivo de equipos e infraestructura.\n- Instalación y configuración de software y soporte a redes.\n- Gestión de respaldos de información institucional.\n- Soporte presencial y documentación de incidencias.", style: defaultStyle }
   ]},
   { segments: [
     { text: "\n2. Auxiliar de Sistemas - ", style: defaultStyle },
     { text: "Universidad UNID", style: highlightStyle },
-    { text: " (05/2025-08/2025):\n- Mantenimiento preventivo y correctivo.\n- Atención a usuarios de forma presencial.\n- Cambios de contraseñas y soporte técnico.", style: defaultStyle }
+    { text: " (05/2025-08/2025):\n- Mantenimiento preventivo y correctivo de Software y Hardware.\n- Atención presencial a usuarios y resolución de requerimientos.\n- Gestión de cuentas, cambios de contraseñas y accesos.", style: defaultStyle }
   ]},
   { segments: [
     { text: "\n3. Asistente de TI - ", style: defaultStyle },
     { text: "Feedback Consultores", style: highlightStyle },
-    { text: " (09/2024-01/2025):\n- Mantenimiento preventivo y correctivo de equipos.\n- Soporte a usuarios presencial y vía remoto.\n- Registro de incidencias técnicas.", style: defaultStyle }
+    { text: " (09/2024-01/2025):\n- Mantenimiento preventivo y correctivo de equipos.\n- Soporte técnico presencial y remoto (TeamViewer, AnyDesk).\n- Registro y control de incidencias técnicas.", style: defaultStyle }
+  ]},
+  { segments: [
+    { text: "\n4. Atención al Cliente y Ventas - ", style: defaultStyle },
+    { text: "Cornershop", style: highlightStyle },
+    { text: " (01/2024-05/2024):\n- Orientación directa al cliente para resolver dudas y problemas.\n- Revisión de calidad de productos según los estándares.", style: defaultStyle }
   ]},
   { segments: [
     { text: "\nEDUCACIÓN:", style: defaultStyle },
@@ -29,10 +36,11 @@ const staticTerminalData = [
     { text: "UNID", style: highlightStyle },
     { text: " (Septiembre 2022 - Agosto 2025)", style: defaultStyle }
   ]},
-  { segments: [{ text: "\nHABILIDADES:", style: defaultStyle }] },
-  { segments: [{ text: "- Técnicas: Diseño y desarrollo web, Infraestructura TI, Uso de inteligencia artificial, Paquetería Office.\n- Personales: Iniciativa, Comunicación efectiva, Toma de decisiones, Aprendizaje rápido, Trabajo en equipo.\n- Idiomas: Español (Nativo), Inglés (B1 Intermedio).", style: defaultStyle }] },
+  
+  { segments: [{ text: "\nHABILIDADES Y SISTEMAS:", style: defaultStyle }] },
+  { segments: [{ text: "- Técnicas: Mantenimiento, Diseño y desarrollo web, Control de calidad, Uso de IA.\n- Sistemas Operativos: Windows (Intermedio), Linux (Básico), macOS (Básico).\n- Soporte Remoto: TeamViewer, AnyDesk | Paquetería Office (Medio).\n- Idiomas: Español (Nativo), Inglés (B1 Intermedio).", style: defaultStyle }] },
   { segments: [{ text: "\nCONTACTO:", style: defaultStyle }] },
-  { segments: [{ text: "- Tel: 9845276526 | Email: sebastianayuso05@gmail.com", style: defaultStyle }] },
+  { segments: [{ text: "- Tel: 9845276526 | Email: sebastianayuso05@gmail.com\n- GitHub: github.com/Sebastap2505", style: defaultStyle }] },
   { segments: [{ text: "--------------------------------------------------", style: titleStyle }] }
 ];
 

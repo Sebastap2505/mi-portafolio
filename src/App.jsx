@@ -117,8 +117,8 @@ export default function App() {
 
           <div className="px-4 mt-6">
             <a 
-              href="/cv_sebastian_ayuso.pdf" 
-              download="CV_Sebastian_Ayuso.pdf"
+              href="/CV%20SEBASTIAN%20AYUSO%20TI.pdf" 
+              download="CV SEBASTIAN AYUSO TI.pdf"
               className="bg-primary-fixed-dim/10 text-primary-fixed-dim border border-primary-fixed-dim w-full py-2 hover:bg-primary-fixed-dim hover:text-background transition-all font-bold text-sm uppercase tracking-widest flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined">download</span>
